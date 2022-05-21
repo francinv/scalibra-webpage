@@ -1,3 +1,4 @@
+import React, { FC } from 'react';
 interface TextInputProps {
     handleChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
     value: string;
@@ -6,7 +7,7 @@ interface TextInputProps {
     required: boolean;
 }
 
-const TextInput:React.FC<TextInputProps> = ({handleChange, value, type, placeholder, required}) => {
+const TextInput: FC<TextInputProps> = ({handleChange, value, type, placeholder, required}) => {
     return (
         <input 
             type={type}

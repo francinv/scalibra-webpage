@@ -1,4 +1,51 @@
 {
     "page_title": "Vi kvalitetssikrer deg",
-    "page_description": "Scalibra er et kalibreringslaboratorium med godt over 15 års erfaring innenfor akkreditert kalibrering av ulike typer termometre og hygrometre for både offentlig og privat sektor."
+    "page_description": "Scalibra er et kalibreringslaboratorium med godt over 15 års erfaring innenfor akkreditert kalibrering av ulike typer termometre og hygrometre for både offentlig og privat sektor.",
+    "page_services": {
+       "services": [
+            {
+                "icon": "fas fa-thermometer-half",
+                "title": "Temperaturkalibrering",
+                "description": "Vi kalibrerer et bredt spekter av temperaturmålere, i rekkeviden -85˚C til 1100˚C grader",
+                "link": "tjenester/temperaturkalibrering"
+            },
+            {
+                "icon": "fas fa-thermometer",
+                "title": "Fuktighetskalibrering",
+                "description": "Vi tilbyr akkreditert kalibrering av både psykrometer og hygrometer i rekkevidden 5% RH til 95% RH",
+                "link": "tjenester/fuktighetskalibrering"
+            },
+            {
+                "icon": "fas fa-street-view",
+                "title": "Feltkalibrering (ISO)",
+                "description": "Vi tilbyr både dokumenterbar og sporbar kalibrering på stedet av ditt temperaturutstyr.",
+                "link": "tjenester/feltkalibrering"
+            },
+            {
+                "icon": "fas fa-shopping-cart",
+                "title": "Instrumenter",
+                "description": "Vi kan være behjelpelig med å skaffe instrumenter etter ditt behov.",
+                "link": "/"
+            }
+        ]
+    },
+    "page_funfact": {
+        "funfact": [
+            {
+                "icon": "fa fa-users",
+                "title": "Faste kunder",
+                "content": 1014
+            },
+            {
+                "icon": "fa fa-briefcase",
+                "title": "Utførte kalibreringer",
+                "content": 7043
+            },
+            {
+                "icon": "fa fa-envelope",
+                "title": "Postpakker sendt",
+                "content": 5069
+            }
+        ]
+    }
 }

@@ -1,0 +1,33 @@
+{
+    "footer_contact": [
+        {
+            "icon":"fa-solid fa-envelope",
+            "href": "mailto:post@scalibra.no",
+            "text": "post@scalibra.no"
+        },
+        {
+            "icon":"fa-solid fa-mobile",
+            "href": "tel:+4767421782",
+            "text": "67 42 17 82"
+        },
+        {
+            "icon":"fa-solid fa-location-dot",
+            "href": "https://g.page/Scalibra?gm",
+            "text": "Vestollveien 34B, Skedsmokorset"
+        }
+    ],
+    "footer_links": [
+        {
+            "href": "/kontakt",
+            "text": "Kontakt oss"
+        },
+        {
+            "href": "/tjenester",
+            "text": "Tjenester"
+        },
+        {
+            "href": "/",
+            "text": "Logg inn"
+        }
+    ]
+}

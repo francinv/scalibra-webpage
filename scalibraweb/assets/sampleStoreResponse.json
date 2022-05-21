@@ -1,0 +1,45 @@
+{
+    "data": [
+        {
+            "id": "testo-184-t3",
+            "brand": "Testo",
+            "model": "184 T3",
+            "description": "Rimelig logger for kontroll av temperaturfølsomme produkter. Levetiden på batteriet er ca. 500 dager, og kan skiftes av brukeren.",
+            "image": "https://maxsievert.no/wp-content/uploads/Kjoletransport-med-Testo-184-T3.jpg",
+            "url": "https://maxsievert.no/testo-184-t3/"
+        },
+        {
+            "id": "testo-110-enkanals-temperaturmaler",
+            "brand": "Testo",
+            "model": "110",
+            "description": "Et godt instrument for NTC gir høy nøyaktighet til en god pris. Testo 110 er godt egnet til generelle målinger og som husnormal for kontroll av andre instrumenter.",
+            "image": "https://maxsievert.no/wp-content/uploads/testo110.jpg",
+            "url": "https://maxsievert.no/testo-110-enkanals-temperaturmaler/"
+        },
+        {
+            "id": "YET-710",
+            "brand": "Yowexa",
+            "model": "YET-710",
+            "description": "YET-710 is an instrument used to measure temperature with the principle of platinum resistance temperature measurement.",
+            "image": "https://0.rc.xiniu.com/g2/M00/1C/87/CgAGe1yIbP6Abn1bAAKz9QTtecw757.png",
+            "url": "https://en.yowexa.com/prod_view.aspx?TypeId=81&Id=227&Fid=t3:81:3"
+        },
+        {
+            "id": "YDP-20E",
+            "brand": "Yowexa",
+            "model": "YDP-20E",
+            "description": "YDP series are used to monitor the environment temperature and humidity, which are also with data logger function.",
+            "image": "https://0.rc.xiniu.com/g1/M00/43/07/CgAGS12f622ARBJ9AABgJthKFjI493.jpg",
+            "url": "https://en.yowexa.com/prod_view.aspx?TypeId=85&Id=278&Fid=t3:85:3"
+        },
+        {
+            "id": "YDP-20",
+            "brand": "Yowexa",
+            "model": "YDP-20",
+            "description": "YDP series are used to monitor the environment temperature and humidity, which are also with data logger function.",
+            "image": "https://0.rc.xiniu.com/g1/M00/43/63/CgAGTF2f4UeAEg-9AABpkIca34o177.jpg",
+            "url": "https://en.yowexa.com/prod_view.aspx?TypeId=85&Id=277&Fid=t3:85:3"
+        }
+
+    ]
+}

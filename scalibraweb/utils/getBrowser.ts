@@ -1,0 +1,1 @@
+export const isSafari = () => {return document.body.clientTop === 0;}
