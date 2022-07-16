@@ -25,11 +25,19 @@ a {
 }
 
 .theme-scroll {
-    background-image: url("../public/images/cal1.jpg"); /* The image used */
-    background-color: #fff; /* Used if the image is unavailable */
-    height: 650px; /* You must set a specified height */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-color: #fff;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.theme-scroll-home {
+  background-image: url("/images/cal1.jpg"); 
+  height: 650px; 
+}
+
+.theme-scroll-services {
+  background-image: url("/images/services_cover.png");
+  height: 320px; 
 }

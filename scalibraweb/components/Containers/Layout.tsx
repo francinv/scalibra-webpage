@@ -23,19 +23,20 @@ const Layout: React.FC<WrapperProps> = ({children, title}) => {
 
     const handleScroll = () => {
         const scrollTop = isSafari() ? document.documentElement.scrollTop : document.body.scrollTop;
-        if (scrollTop > navRef.current!.offsetHeight) {
-            setIsVisible(true);
-            var footerHeight = footerRef.current!.offsetHeight;
-            var distanceToBottom = document.body.scrollHeight - scrollTop - window.innerHeight;
+        if (navRef.current && footerRef.current) {
+            if (scrollTop > navRef.current.offsetHeight) {
+                setIsVisible(true);
+                var footerHeight = footerRef.current.offsetHeight;
+                var distanceToBottom = document.body.scrollHeight - scrollTop - window.innerHeight;
 
-            if (distanceToBottom < footerHeight) {
-                setBtnColor("text-white");
+                if (distanceToBottom < footerHeight) {
+                    setBtnColor("text-white");
+                } else {
+                    setBtnColor("text-stratos");
+                }
             } else {
-                setBtnColor("text-stratos");
+                setIsVisible(false);
             }
-            
-        } else {
-            setIsVisible(false);
         }
     }
 

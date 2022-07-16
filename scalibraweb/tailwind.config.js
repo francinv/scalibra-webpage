@@ -11,6 +11,7 @@ module.exports = {
       'white': '#ffffff',
       'athensgray': '#E6E6EA',
       'softred': '#db4d4d',
+      'guardsmanred_op': 'rgba(204, 0, 0, 0.8)',
     },
     fontFamily: {
       'body': ['Quicksand', 'Montserrat', 'sans-serif']
@@ -20,6 +21,11 @@ module.exports = {
       '50': '0.5px',
       '1': '1px',
       '2': '2px',
+    },
+    extend: {
+      width: {
+        'screen-': '80vw',
+      },
     },
     extend: {},
   },

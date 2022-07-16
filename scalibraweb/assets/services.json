@@ -1,0 +1,41 @@
+{
+    "page_title": "Hva kan vi hjelpe deg med?",
+    "page_description": "Ønsker du å spare din bedrift for store kostnader som er knyttet til feilmålinger og produksjon? Scalibra er løsningen! Vi tilbyr det meste innenfor kalibrering. Vårt team kan hjelpe deg med å få mer tillit hos dine kunder, samt gjøre deg mer konkurransedyktig.",
+    "page_preamble": {
+        "title": "Du kan stole på oss.",
+        "text": "Med vår 15 år lange erfaring innenfor kalibrering er vi sikre på at vi kan hjelpe deg med dine behov. Vi har høyt fokus på nøyaktighet, kvalitet og rask levering. Scalibra er akkreditert i henhold til ISO 17025 for å utføre kalibrering gitt i akkrediteringsbevis ",
+        "url_text": "CAL 031.",
+        "href": "https://akkreditert.no/akkrediterte-organisasjoner/kalibrering/?AkkId=566"
+    },
+    "page_services": [
+        {
+            "title": "Temperaturkalibrering",
+            "description": "Vi kan kalibrere deres termometre. Vi tilbyr sporbar og akkreditert kalibrering mellom -85 ºC og 1100 ºC.",
+            "link": "tjenester/temperaturkalibrering",
+            "image": "/images/temperature.svg"
+        },
+        {
+            "title": "Fuktighetskalibrering",
+            "description": "Vi kan kalibrere deres hygrometre. Vi tilbyr sporbar og akkreditert kalibrering mellom 5 og 95 % RF ved 10-40 ºC.",
+            "link": "tjenester/fuktighetskalibrering",
+            "image": "/images/hygro.svg"
+        },
+        {
+            "title": "Feltkalibrering (ikke-akkreditert)",
+            "description": "Ønsker du at vi kommer til dere for å kalibrere deres utstyr? Vi kan kalibrere deres utstyr i området -85 ºC til +1 100 ºC hos dere.",
+            "link": "tjenester/feltkalibrering",
+            "image": "/images/onsite.svg"
+        },
+        {
+            "title": "Nettbutikk",
+            "description": "Vi tilbyr et stort utvalg av instrumenter og utstyr som passer dine behov.",
+            "link": "www.nettbutikk.scalibra.no/",
+            "image": "/images/ecommerce.svg"
+        }
+    ],
+    "page_contact": {
+        "title": "Er du usikker på hva du trenger?",
+        "form_title": "Kontakt oss",
+        "paragraph": "Ønsker du å kvalitetssikre din bedrift, men usikker på hva du trenger? Ta kontakt med oss, så vi finner vi ut sammen hva vi kan bidra med."
+    }
+}

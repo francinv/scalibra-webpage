@@ -8,7 +8,7 @@ const Footer = forwardRef<HTMLDivElement>((props, ref) => {
     const contactInfoStyle: string = "hover:border-b-guardsmanred border-b-1 border-b-stratos pb-1 transition duration-200 ease-in font-body";
 
     return (
-        <footer className="bg-stratos px-7 py-5 text-white flex" ref={ref}>
+        <footer className="bg-stratos px-12 py-5 text-white flex" ref={ref}>
             <ContactSection linkCustomClasses={contactInfoStyle} />
             <LinksSection contactCustomClasses={contactInfoStyle} />
             <NewsletterSubmission />

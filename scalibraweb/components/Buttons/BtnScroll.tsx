@@ -1,5 +1,4 @@
 import React, { FC } from "react";
-import animationStyle from "../../styles/Animated.module.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useIcon } from "../../utils/useIcon";
 
@@ -17,7 +16,7 @@ const BtnScroll: FC<BtnScrollProps> = ({isVisible, btnColor}) => {
 
     if(isVisible) {
         return (
-            <button className={`fixed bottom-5 right-8 hover:scale-125 transition duration-500 ${btnColor} ${animationStyle.fadeIn}`} onClick={handleClick}>
+            <button className={`fixed bottom-5 right-8 hover:scale-125 transition duration-500 ${btnColor} fade_in`} onClick={handleClick}>
                 <FontAwesomeIcon icon={useIcon('fa-solid fa-chevron-up')} className='text-3xl' /> 
             </button>
         );

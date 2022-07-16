@@ -29,11 +29,11 @@ const Navbar = forwardRef<HTMLDivElement, NavbarProps>((title, ref) => {
                 <div className="hidden w-full md:block md:w-auto">
                     <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 items-center">
                         {
-                            navElements.map((element, index) => {
+                            navElements.map(element => {
                                 if (isHome && element.title !== 'Hjem') {
-                                    return <NavbarListElement key={index} icon={element.icon} text={element.title} url={element.link} />
+                                    return <NavbarListElement key={element.title} icon={element.icon} text={element.title} url={element.link} currentPage={title.title} />
                                 } else if(!isHome) {
-                                    return <NavbarListElement key={index} icon={element.icon} text={element.title} url={element.link} />
+                                    return <NavbarListElement key={element.title} icon={element.icon} text={element.title} url={element.link} currentPage={title.title} />
                                 }
                         })}
                         <BtnC2A text="Nettbutikk" url="/" />
